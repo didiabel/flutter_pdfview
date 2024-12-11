@@ -17,11 +17,10 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
-        //gradlePluginPortal()
         mavenCentral()
-        //jcenter()
     }
 }
+
 
 apply plugin: 'com.android.library'
 
@@ -43,7 +42,7 @@ dependencies {
     // comment next line to run the app
     // implementation files('C://flutter/bin/cache/artifacts/engine/android-x64/flutter.jar')
     // implementation 'com.github.pires:obd-java-api:1.0'
-    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.1'
     // implementation 'com.android.support:multidex:2.0.1'
 }
 
